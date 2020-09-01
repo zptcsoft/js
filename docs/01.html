@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@5"></script><script src="https://cdn.jsdelivr.net/npm/markmap-lib@0.8.0/dist/browser/view.min.js"></script><script>((data, init, items, opts) => {
+        const {
+          Markmap,
+          loadPlugins
+        } = window.markmap;
+        (init ? init(loadPlugins, items, opts) : Promise.resolve()).then(() => {
+          window.mm = Markmap.create('svg#mindmap', null, data);
+        });
+      })({"t":"heading","d":1,"p":{},"v":"课程概述","c":[{"t":"heading","d":2,"p":{},"v":"课程定位","c":[{"t":"blockquote","d":3,"p":{},"v":"","c":[{"t":"paragraph","d":4,"p":{},"v":"软件技术专业四大方向-<strong>前端开发</strong>方向"},{"t":"paragraph","d":4,"p":{},"v":"前端开发方向课程体系-<strong>承上启下</strong>作用"}]},{"t":"heading","d":3,"p":{},"v":"专业方向","c":[{"t":"list_item","d":4,"p":{},"v":"<strong>前端开发</strong>"},{"t":"list_item","d":4,"p":{},"v":"后端开发"},{"t":"list_item","d":4,"p":{},"v":"虚拟现实"},{"t":"list_item","d":4,"p":{},"v":"测试运维"}]},{"t":"heading","d":3,"p":{},"v":"工作流程","c":[{"t":"list_item","d":4,"p":{},"v":"网页布局"},{"t":"list_item","d":4,"p":{},"v":"<strong>动态交互</strong>"},{"t":"list_item","d":4,"p":{},"v":"<strong>组件化思想</strong>"},{"t":"list_item","d":4,"p":{},"v":"移动APP"},{"t":"list_item","d":4,"p":{},"v":"小程序"},{"t":"list_item","d":4,"p":{},"v":"主流框架"},{"t":"list_item","d":4,"p":{},"v":"全栈开发"}]},{"t":"heading","d":3,"p":{},"v":"课程体系","c":[{"t":"list_item","d":4,"p":{},"v":"原型设计"},{"t":"list_item","d":4,"p":{},"v":"前端开发"},{"t":"list_item","d":4,"p":{},"v":"<strong>交互开发</strong>"},{"t":"list_item","d":4,"p":{},"v":"混合式APP开发"},{"t":"list_item","d":4,"p":{},"v":"微信开发"}]}]},{"t":"heading","d":2,"p":{},"v":"课程内容","c":[{"t":"list_item","d":3,"p":{},"v":"原生Javascript","c":[{"t":"list_item","d":4,"p":{},"v":"语言初步"},{"t":"list_item","d":4,"p":{},"v":"基础语法"},{"t":"list_item","d":4,"p":{},"v":"变量"},{"t":"list_item","d":4,"p":{},"v":"数据类型"},{"t":"list_item","d":4,"p":{},"v":"运算符与表达"},{"t":"list_item","d":4,"p":{},"v":"流程控制"}]},{"t":"list_item","d":3,"p":{},"v":"语言要件","c":[{"t":"list_item","d":4,"p":{},"v":"数组"},{"t":"list_item","d":4,"p":{},"v":"时间"},{"t":"list_item","d":4,"p":{},"v":"函数"},{"t":"list_item","d":4,"p":{},"v":"事件"}]},{"t":"list_item","d":3,"p":{},"v":"面向对象","c":[{"t":"list_item","d":4,"p":{},"v":"概述"},{"t":"list_item","d":4,"p":{},"v":"原型链实现"},{"t":"list_item","d":4,"p":{},"v":"ES6实现"}]},{"t":"list_item","d":3,"p":{},"v":"客户端API","c":[{"t":"list_item","d":4,"p":{},"v":"操作文档"},{"t":"list_item","d":4,"p":{},"v":"音视频"},{"t":"list_item","d":4,"p":{},"v":"客户端存储"},{"t":"list_item","d":4,"p":{},"v":"画图"}]},{"t":"list_item","d":3,"p":{},"v":"最新版本","c":[{"t":"list_item","d":4,"p":{},"v":"ES5"},{"t":"list_item","d":4,"p":{},"v":"ES6"}]},{"t":"list_item","d":3,"p":{},"v":"组件与框架","c":[{"t":"list_item","d":4,"p":{},"v":"组件应用","c":[{"t":"list_item","d":5,"p":{},"v":"焦点图"},{"t":"list_item","d":5,"p":{},"v":"表单验证"},{"t":"list_item","d":5,"p":{},"v":"图片查看"}]},{"t":"list_item","d":4,"p":{},"v":"主流框架","c":[{"t":"list_item","d":5,"p":{},"v":"Vue.js"},{"t":"list_item","d":5,"p":{},"v":"React"}]}]}]},{"t":"heading","d":2,"p":{},"v":"课程资源","c":[{"t":"list_item","d":3,"p":{},"v":"教程","c":[{"t":"list_item","d":4,"p":{},"v":"<a href=\"https://search.bilibili.com/all?keyword=javascript\" title=\"\" target=\"_blank\" rel=\"noopener noreferrer\">视频教程</a>"},{"t":"list_item","d":4,"p":{},"v":"<a href=\"https://javascript.ruanyifeng.com/\" title=\"\" target=\"_blank\" rel=\"noopener noreferrer\">阮一峰 JavaScript 标准参考教程</a>"},{"t":"list_item","d":4,"p":{},"v":"<a href=\"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript\" title=\"\" target=\"_blank\" rel=\"noopener noreferrer\">MDN Javascript文档</a>"},{"t":"list_item","d":4,"p":{},"v":"<a href=\"https://zptcsoft.github.io/js/\" title=\"\" target=\"_blank\" rel=\"noopener noreferrer\">Github课程网站</a>"},{"t":"list_item","d":4,"p":{},"v":"<a href=\"https://github.com/getify/You-Dont-Know-JS\" title=\"\" target=\"_blank\" rel=\"noopener noreferrer\">You-Dont-Know-JS</a>"},{"t":"list_item","d":4,"p":{},"v":"<a href=\"https://github.com/sorrycc/awesome-javascript\" title=\"\" target=\"_blank\" rel=\"noopener noreferrer\">Awesome-javascript</a>"}]},{"t":"list_item","d":3,"p":{},"v":"规范","c":[{"t":"list_item","d":4,"p":{},"v":"<a href=\"http://jstherightway.org/zh-cn/\" title=\"\" target=\"_blank\" rel=\"noopener noreferrer\">JavaScript The Right Way中文版</a>"},{"t":"list_item","d":4,"p":{},"v":"<a href=\"https://lin-123.github.io/javascript/\" title=\"\" target=\"_blank\" rel=\"noopener noreferrer\">JavaScript 风格指南</a>"},{"t":"list_item","d":4,"p":{},"v":"<a href=\"https://bestofjs.org/\" title=\"\" target=\"_blank\" rel=\"noopener noreferrer\">Best of Javascript</a>"},{"t":"list_item","d":4,"p":{},"v":"<a href=\"https://risingstars.js.org/2019/zh\" title=\"\" target=\"_blank\" rel=\"noopener noreferrer\">2019年Javascript明星项目</a>"}]},{"t":"list_item","d":3,"p":{},"v":"原生","c":[{"t":"list_item","d":4,"p":{},"v":"<a href=\"https://github.com/nefe/You-Dont-Need-jQuery/blob/master/README.zh-CN.md\" title=\"\" target=\"_blank\" rel=\"noopener noreferrer\">You Don't Need jQuery</a>"},{"t":"list_item","d":4,"p":{},"v":"<a href=\"http://youmightnotneedjquery.com/\" title=\"\" target=\"_blank\" rel=\"noopener noreferrer\">You Might Not Need jQuery</a>"},{"t":"list_item","d":4,"p":{},"v":"<a href=\"https://plainjs.com/\" title=\"\" target=\"_blank\" rel=\"noopener noreferrer\">Plain JS-使用原生JS</a>"}]},{"t":"list_item","d":3,"p":{},"v":"广场","c":[{"t":"list_item","d":4,"p":{},"v":"http://codepen.io/"},{"t":"list_item","d":4,"p":{},"v":"https://tympanus.net/codrops/"},{"t":"list_item","d":4,"p":{},"v":"https://littlesnippets.net/"}]},{"t":"list_item","d":3,"p":{},"v":"面试","c":[{"t":"list_item","d":4,"p":{},"v":"<a href=\"https://github.com/lydiahallie/javascript-questions/blob/master/zh-CN/README-zh_CN.md\" title=\"\" target=\"_blank\" rel=\"noopener noreferrer\">JavaScript 进阶问题列表</a>"},{"t":"list_item","d":4,"p":{},"v":"<a href=\"https://github.com/lgwebdream/FE-Interview\" title=\"\" target=\"_blank\" rel=\"noopener noreferrer\">FE-Interview</a>"},{"t":"list_item","d":4,"p":{},"v":"<a href=\"https://github.com/haizlin/fe-interview\" title=\"\" target=\"_blank\" rel=\"noopener noreferrer\">Fe-interview</a>"}]}]}]})</script>
+</body>
+</html>
