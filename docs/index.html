@@ -2,11 +2,52 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Document</title>
+		<title>交互开发教程</title>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<meta name="description" content="Description">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 		<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+		<style type="text/css">
+			body{
+				--color: rgba(0,0,0,.5);
+			}
+			.sidebar-nav ul{
+				margin-left: 0px;
+				padding-left: 8px;
+				position: relative;
+			}
+			.sidebar-nav ul::before{
+				content: "";
+				width: 1px;
+				background-color: var(--color);
+				position: absolute;
+				margin: auto;
+				top: 14px;
+				bottom: 16px;
+			}
+			.sidebar-nav li ul::after{
+				content: "";
+				width: 24px;
+				height: 1px;
+				background-color: var(--color);
+				position: absolute;
+				left: -24px;
+				top: 14px;
+			}
+			.sidebar-nav li{
+				position: relative;
+				padding-left: 24px;
+			}
+			.sidebar-nav li::before{
+				content: "";
+				width: 22px;
+				height: 1px;
+				background-color: var(--color);
+				position: absolute;
+				left: 0;
+				top: 14px;
+			}
+		</style>
 	</head>
 	<body>
 		<nav>
@@ -19,7 +60,7 @@
 				loadSidebar: true,
 				subMaxLevel: 3,
 				loadNavbar: true,
-				homepage: '01.md'
+				homepage: '../README.md'
 			}
 		</script>
 		<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>

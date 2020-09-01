@@ -14,7 +14,7 @@
 
 ### 工作流程
 
-<img src="/docs/01.assets/image-20200831113019269.png" alt="image-20200831113019269" style="zoom:80%;" />
+<img src="./docs/01.assets/image-20200831113019269.png" alt="image-20200831113019269" style="zoom:80%;" />
 
 - 网页布局
 - **动态交互**
@@ -32,7 +32,7 @@
 - 混合式APP开发
 - 微信开发
 
-## [课程内容](./docs/#/index.html)
+## [课程内容](./docs/#/)
 
 1. 原生Javascript
    1. 语言初步
