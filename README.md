@@ -32,7 +32,7 @@
 - 混合式APP开发
 - 微信开发
 
-## [课程内容](/docs/#/index.html)
+## [课程内容](./docs/#/index.html)
 
 1. 原生Javascript
    1. 语言初步
