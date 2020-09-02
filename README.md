@@ -56,8 +56,8 @@
       3. 客户端存储
       4. 画图
    5. 最新版本
-      1. ES5
-      2. ES6
+      1. ES6
+      2. ES7
 6. 组件与框架
    1. 组件应用
       1. 焦点图
@@ -101,11 +101,11 @@
 
 - 广场
 
-  - http://codepen.io/
+  - [codepen](http://codepen.io/)
 
-  - https://tympanus.net/codrops/
+  - [codrops](https://tympanus.net/codrops/)
 
-  - https://littlesnippets.net/
+  - [littlesnippets](https://littlesnippets.net/)
 
 - 面试
 
