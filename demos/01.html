@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>体会Javascript应用</title>
+		<style type="text/css">
+			/* CSS实现样式 */
+			.btn{
+				padding: 16px;
+				background-color: aliceblue;
+				border-radius: 10px;
+				color: #000;
+				font-size: 1.5;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- HTML实现按钮 -->
+		<button class="btn">单击按钮，打个招呼！</button>
+		<!-- Javascript实现交互 -->
+		<script type="text/javascript">
+			let btn = document.querySelector(".btn");
+			btn.addEventListener("click",function(){
+				btn.innerHTML = "Say Hello!";
+			});
+		</script>
+	</body>
+</html>
