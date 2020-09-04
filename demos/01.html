@@ -19,10 +19,12 @@
 		<button class="btn">单击按钮，打个招呼！</button>
 		<!-- Javascript实现交互 -->
 		<script type="text/javascript">
-			let btn = document.querySelector(".btn");
-			btn.addEventListener("click",function(){
-				btn.innerHTML = "Say Hello!";
-			});
+// 让网页“动”起来，不只是实现动画，而是根据用户交互实现“动态”网页。
+// 利用Javascript实现交互
+let btn = document.querySelector(".btn");
+btn.addEventListener("click",function(){
+	btn.innerHTML = "Say Hello!";
+});
 		</script>
 	</body>
 </html>
